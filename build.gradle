@@ -36,10 +36,10 @@ application {
 
 task serial(type: JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
-    main = 'SerialMain'
+    main = 'mpd.SerialMain'
 }
 
 task threaded(type: JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
-    main = 'ThreadedMain'
+    main = 'mpd.ThreadedMain'
 }
